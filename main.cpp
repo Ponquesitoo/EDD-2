@@ -81,6 +81,8 @@ int main(){
     }
     else {//se pudo abrir el archivo
 
+        int cantidadNaipes = numeroNaipes;
+        archivo.write(reinterpret_cast<char*>(&cantidadNaipes),sizeof(int));
         archivo.write(reinterpret_cast<char*>(baraja), sizeof(baraja));
 
     }
