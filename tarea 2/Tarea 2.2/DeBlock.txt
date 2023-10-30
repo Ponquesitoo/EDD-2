@@ -1,0 +1,79 @@
+DeBlock es básicamente llamadas a tListaDeListas :3
+
+Su programa deberá constar de un TDA llamado DeBlock que va almacenar elementos tipo tElem. El TDA tendrá el siguiente formato:
+
+class DeBlock {
+  private:
+    int cant_elems;
+    tListadeLista l;
+  public: 
+    DeBlock(tElem* elems, int n, int b); //listo
+    int insert(int pos, tElem elem); // listo
+    tElem erase(int pos);
+    tElem get_value(int pos); //listo
+    int length(); //listo
+    void clear(); //listo
+}
+
+Dónde tListadeLista corresponde a una lista que almacena listas. Para la implementación de la lista, usted debe implementar el TDA de Lista enlazada o Lista basada en arreglo visto en clases.
+
+PISTA: deberá implementar dos tipos listas, uno que permita almacenar listas y otro que permita almacenar el tipo tElem.
+
+Usted debe implementar las siguientes funciones dentro del TDA:
+
+DeBlock(tElem* elems, int n, int b): constructor que inicializa la estructura con un arreglo de tamaño n utilizando bloques de tamaño b.
+-- se  implementa en DeBlock.
+
+while (i < n){
+  tLista.clear;
+  for (int a = 0; a < b; a++){
+    tElem valor = elems[a];
+    tLista.append(valor);
+  }
+  tListaDeListas.append(tLista);
+  i = i + a;
+}
+
+int insert(int pos, tElem elem): inserta elem en la posición pos. Retorna 1 si el elemento se insertó correctamente, en caso contrario se retorna 0.
+
+int cont = 0;
+for (int i = 0; i < listArray.length(); i++){
+  if (pos <= cont + listArray[i].length()){
+    listArray[i].moveToStart();
+    for (int a = cont; a < pos; a++){;
+      listArray[i].Next();
+    }
+    listArray[i].insert(elem);
+    return 1;
+  }
+  else {
+    cont = cont + listArray[i].length();
+    i++;
+  }  
+}
+return 0;
+
+tElem get_value(int pos): retorna el elemento almacenado en la posición pos.
+-- se implementa en tListaDeListas.
+
+int cont = 0;
+tElem elem;
+for (int i = 0; i < t  listArray.length(); i++){
+  if (pos <= cont + tListaDeListas[i].length()){
+    listArray[i].moveToStart();
+    for (int a = cont; a < pos; a++){
+      elem = listArray[i].getValue();
+      listArray[i].Next();
+    }
+    return elem;
+  }
+  else {
+    cont = cont + listArray[i].length();
+    i++;
+  }
+}
+
+
+int length(): retorna el número de elementos en la estructura.
+
+Puede agregar todas las funciones que usted estime conveniente.

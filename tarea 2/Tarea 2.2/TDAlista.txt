@@ -1,0 +1,33 @@
+TDA LISTA ---------------------
+clear -- borrar todos los elementos (funciona)
+int insert (telemlista item) -- insertar en la posicion actual (funciona)
+int append (telemlista item) --  insertar al final (funciona)
+telemlsita erase () -- elimina el actual y retorna su valor
+void moveToStart() -- mueve la posicion actual al comienzo (funciona)
+void moveToEnd() -- mueve la posicion actual al final (funciona)
+void Next() -- mueve la posicion actual al siguiente (funciona)
+void Prev() -- mueve la posicion actual al anterior (funciona)
+int lenght() -- largo de la lista (funciona)
+int currPos() -- posicion del elemento actual
+void moveToPos(unsigned int posicion) -- mueve el pos actual a una especifica (funciona)
+telemlista getValue() -- obtiene el valor del elemento actual (funciona)
+int find(tElemlLista info) -- busca un valor y retorna su posicion, -1 en caso de no encontrarlo (funciona)
+void print(); -- imprime la lista (funciona)
+
+struct tNodo{
+    tElemlLista info;
+    tNodo* sig;
+}
+
+class tLista {  
+    private:
+        tNodo* head;    
+        tNodo* tail;    
+        tNodo* curr; // apunta al anterior de la posicion actual
+        unsigned int listSize;    
+        unsigned int pos; // posicion actual en la lista
+    public:
+        constructor;
+        destructor;
+        // métodos de la clase
+};

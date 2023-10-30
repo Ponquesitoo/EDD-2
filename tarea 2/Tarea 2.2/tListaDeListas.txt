@@ -1,0 +1,26 @@
+#include <iostream>
+#include "TDAlista.cpp"
+
+
+class tListadeListas{
+  private:
+    unsigned int maxSize;
+    unsigned int listSize;
+    unsigned int curr;
+    tLista* listArray;
+
+  public:
+    tListadeListas(); //listo
+    ~tListadeListas(); //listo
+    void clear(); //listo
+    int insert(tLista lista); //listo
+    int append(tLista lista); //listo;
+    void moveToStart(); //listo
+    void moveToEnd(); //listo
+    void moveToPos(int pos); //listo
+    void next(); //listo
+    void prev(); //listo
+    int length(); //listo
+    int currPos(); //listo
+    tLista* getValue(); //listo
+};
