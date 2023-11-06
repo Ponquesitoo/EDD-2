@@ -4,7 +4,7 @@ El codigo consiste de un "main" y los TDA del mismo.
 
 Para compilar el programa se debe navegar hasta la carpeta "/tarea2-acosta-sarmiento" e ingresar los siguentes comandos:
 
-g++ main.cpp -Wall -o <nombre>
+g++ DeBlock.cpp ListaDeListas.cpp lista.cpp main.cpp -Wall -o <nombre>
 
 Y posteriormente se debe usar el siguiente comando: ./ <nombre>
 
