@@ -246,7 +246,7 @@ int tLista :: currPos(){
 
 void tLista :: moveToPos(unsigned int posicion){
     unsigned int i;
-    if (posicion < 0 || posicion > listSize){
+    if (posicion > listSize){
         return;
     }
     curr = head;
@@ -290,7 +290,7 @@ tElem tLista :: getValue(){
 *****/
 
 void tLista::Cambiar_valor(tElem info_nueva, unsigned int pos){
-    if (pos < 0 || pos >= listSize){
+    if (pos >= listSize){
         return;
     }
     
