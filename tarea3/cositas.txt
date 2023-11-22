@@ -1,0 +1,2 @@
+cositas que faltan
+- no hay nada que iniciar en el constructor
