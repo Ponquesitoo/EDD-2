@@ -1,0 +1,6 @@
+Alondra Acosta - 200 - 202273524-4
+  Parte 1: problema1.cpp
+María Marin - 201 - 202273544-9 
+  Parte 2: funcionesComando.hpp, metodosHeap.cpp, problema2.cpp, tda.hpp
+Isidora Sarmiento - 203 - 202273650-k
+  Parte 1: TDA.hpp, hash.hpp

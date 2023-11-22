@@ -1,0 +1,7 @@
+Alondra Acosta - 200 - 202273524-4
+  Parte 2: TDA.hpp, funciones busqueda, find, insertarNodo, insert, crearNodo, struct Cola, insertarCola, MostrarYEliminarCola y main.
+María Marin - 201 - 202273544-9 
+  Parte 1, TDA, funciones append, clear, exportToFile, y main.
+Isidora Sarmiento - 203 - 202273650-k
+  Parte 1, TDA, funciones insertar, intercambiar, borrar. 
+  Parte 2, funciones encontrarNodo, lower_bound.
